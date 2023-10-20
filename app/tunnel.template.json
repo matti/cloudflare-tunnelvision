@@ -1,0 +1,5 @@
+{
+  "AccountTag": "${TUNNELVISION_CLOUDFLARE_ACCOUNT_TAG}",
+  "TunnelSecret": "${TUNNELVISION_TUNNEL_SECRET}",
+  "TunnelID": "${TUNNELVISION_TUNNEL_ID}"
+}
