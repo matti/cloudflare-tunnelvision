@@ -13,5 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+      - run: touch .env
       - run: docker buildx create --use
       - run: docker buildx bake --push
